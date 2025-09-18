@@ -26,6 +26,16 @@ class ConverterTest {
     }
 
     @Test
+    void notKelvinToCelsius() {
+        assertNotEquals(30, new Converter().kelvinToCelsius(323.45));
+    }
+
+    @Test
+    void kelvinToCelsius() {
+        assertEquals(30, new Converter().kelvinToCelsius(303.15));
+    }
+
+    @Test
     void isExtreme() {
         assertTrue(new Converter().isExtreme(60));
     }
