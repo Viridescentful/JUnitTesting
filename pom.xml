@@ -73,7 +73,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.TimeCal.Main</mainClass>
+                            <mainClass>org.Temperature.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
